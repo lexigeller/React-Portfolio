@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
@@ -7,21 +7,23 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('About Me');
+
+  const handleNavItemClick = (section) => {
+    setActiveSection(section);
+  };
+
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <main>
-          <Switch>
-            <Route path="/" exact component={AboutMe} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/resume" component={Resume} />
-          </Switch>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="App">
+      <Header onNavItemClick={handleNavItemClick} activeSection={activeSection} />
+      <main>
+        {activeSection === 'About Me' && <AboutMe />}
+        {activeSection === 'Portfolio' && <Portfolio />}
+        {activeSection === 'Contact' && <Contact />}
+        {activeSection === 'Resume' && <Resume />}
+      </main>
+      <Footer />
+    </div>
   );
 }
 
