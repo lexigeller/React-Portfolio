@@ -9,8 +9,8 @@ function Navigation() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
-        <a className="navbar-brand">Portfolio | Lexi Geller</a>
+      <div className="container">Portfolio | Lexi Geller
+        <a className="navbar-brand"></a>
         <ul className="navbar-nav">
           <li className={`nav-item ${activeNavItem === 'About Me' ? 'active' : ''}`}>
             <a
