@@ -81,7 +81,7 @@ h3 {
 }
 
 .headshot {
-  max-width: 25%; /* Adjust the maximum width as needed */
+  max-width: 12.5%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
@@ -102,7 +102,6 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
- /* background-color: rgba(0, 0, 0, 0.3); /* Background overlay color and opacity */
   z-index: 1; /* Adjust the z-index as needed */
 }
 
