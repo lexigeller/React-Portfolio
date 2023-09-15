@@ -41,12 +41,18 @@ header {
 /* Navbar styles */
 .navbar {
   display: flex;
-  justify-content: flex-end; /* Align items to the right */
+  justify-content: space-between; /* Align items to the left and right */
   background-color: transparent; /* Remove background color */
+  align-items: center; /* Center vertically */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Push the brand/logo to the left */
 }
 
 .nav-item {
-  margin-right: 20px;
+  margin-left: 20px; /* Add margin between navigation items */
+  list-style: none; /* Remove bullet points */
 }
 
 .nav-item a {
@@ -75,7 +81,7 @@ h3 {
 }
 
 .headshot {
-  max-width: 100%; /* Adjust the maximum width as needed */
+  max-width: 25%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
