@@ -24,6 +24,9 @@ body {
 
 header {
   background-image: url("../src/assets/header.jpg");
+  width: 100%;
+  position: fixed;
+  text-decoration: none;
 }
 
 h1 {
