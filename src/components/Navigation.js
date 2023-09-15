@@ -10,7 +10,7 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="/">Lexi Geller | Portfolio</a>
+        <a className="navbar-brand">Portfolio | Lexi Geller</a>
         <button
           className="navbar-toggler"
           type="button"

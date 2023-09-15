@@ -8,7 +8,7 @@ function AboutMe() {
         <h1 id="about">
           About Me
         </h1>
-        <img src={headshot} alt="profile" />
+        <img src={headshot} id="headshot" alt="profile" />
         <p>
             Hello! I'm Lexi Geller, a recent web development graduate.
         </p>
