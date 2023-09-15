@@ -81,7 +81,7 @@ h3 {
 }
 
 .headshot {
-  max-width: 12.5%; /* Adjust the maximum width as needed */
+  max-width: 15%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
@@ -89,6 +89,8 @@ h3 {
 
 /* Position the background image behind the headshot */
 .headshot-container {
+  max-width: fit-content;
+  height: auto;
   background-image: url("../src/assets/headshotbackground.jpg");
   background-size: cover;
   background-position: center;
