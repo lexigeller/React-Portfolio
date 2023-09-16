@@ -84,19 +84,23 @@ h3 {
   margin-top: 50px; /* Add margin-top to create space */
 }
 
+/* Center the headshot and its background */
 .headshot-container {
   display: flex;
-  justify-content: center; /* Center the headshot horizontally */
-  align-items: center; /* Center the headshot vertically */
-  max-width: 80%;
-  margin: 0 auto; /* Center the container horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-image: url("../src/assets/headshotbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust the height as needed */
+  position: relative;
 }
 
+/* Adjust the size of the headshot */
 .headshot {
   max-width: 100%; /* Adjust the maximum width as needed */
-  height: auto; /* Maintain aspect ratio */
+  max-height: 100%; /* Adjust the maximum height as needed */
   display: block;
-  margin: 0 auto; /* Center the image horizontally */
 }
 
 .headshot-overlay {
