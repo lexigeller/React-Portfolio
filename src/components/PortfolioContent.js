@@ -12,33 +12,33 @@ function PortfolioContent() {
     {
       title: 'Are We There Yet?',
       description: 'An application for users to plan a vacation',
-      imageUrl: 'AreWeThereYet.jpg',
+      imageUrl: './src/assets/AreWeThereYet.jpg',
       githubUrl: 'https://github.com/treesaretall/arewethereyet',
     },
     {
         title: 'PWA Text Editor',
         description: 'A single-page text editing application that meets PWA criteria',
-        imageUrl: 'PWA.jpg',
+        imageUrl: './src/assets/PWA.jpg',
         githubUrl: 'https://github.com/lexigeller/PWA-Text-Editor',
     },
     {
         title: 'Employee Tracker',
         description: 'A command-line application for companies to manage their employee databases',
-        imageUrl: 'EmployeeTracker.jpg',
+        imageUrl: './src/assets/EmployeeTracker.jpg',
         liveDemoUrl: 'https://drive.google.com/file/d/14OB_90ZpJET1-T-2X8bbsS6-NPPzKCPm/view',
         githubUrl: 'https://github.com/lexigeller/Employee-Tracker',
     },
     {
         title: 'README Generator',
         description: 'A simple app for generating a professional README',
-        imageUrl: 'READMEGenerator.jpg',
+        imageUrl: './src/assets/READMEGenerator.jpg',
         liveDemoUrl: 'https://drive.google.com/file/d/13V5ZwtubRC5C_gMmXWTagsQEvBDyovdW/view',
         githubUrl: 'https://github.com/lexigeller/README-Generator',
     },
     {
         title: 'Weather Dashboard',
         description: 'An application for users to plan a vacation',
-        imageUrl: 'WeatherDashboard.jpg',
+        imageUrl: './src/assets/WeatherDashboard.jpg',
         githubUrl: 'https://github.com/lexigeller/Weather-Dashboard',
     },
   ];
