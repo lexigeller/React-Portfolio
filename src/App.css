@@ -166,7 +166,6 @@ button {
   color: #fff;
   padding: 16px;
   border-radius: 5px;
-  width: 90%;
   background-color: #fff; /* Set a background color for the card */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for the card */
 }
