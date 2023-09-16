@@ -5,6 +5,8 @@
   padding: 0;
   font-family: 'Antic Didone', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, serif;
+  color: #023020;
+  text-decoration: none;
 }
 
 /* Body styles */
@@ -24,7 +26,7 @@ body {
 }
 
 /* Header styles */
-header, .header {
+header, nav {
   background-image: url("../src/assets/header.jpg");
   background-size: cover;
   width: 100%;
@@ -95,7 +97,7 @@ h3 {
   background-image: url("../src/assets/headshotbackground.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: center;
 }
 
 /* Add padding and adjust the z-index to ensure the headshot is on top */
@@ -164,6 +166,15 @@ button {
   font-size: 24px;
   cursor: pointer;
   color: #023020;
+  text-decoration: none;
+}
+
+.social-icons {
+  color: #023020;
+}
+
+p {
+  color: #023020
 }
 
 /* Media queries for responsiveness */
