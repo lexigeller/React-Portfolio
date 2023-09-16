@@ -6,7 +6,7 @@ function PortfolioContent() {
     {
       title: 'Clikd On',
       description: 'A location-based professional social networking app designed to help users connect with other professionals in their area and industry',
-      imageUrl: './assets/ClikdOn.jpg', 
+      imageUrl: './src/assets/ClikdOn.jpg', 
       githubUrl: 'https://github.com/dtm589/professional-social-media',
     },
     {
