@@ -5,7 +5,7 @@ import headshot from '../assets/headshot.jpg';
 function AboutMe() {
   return (
     <section id="about-me" className="about-me">
-      <div className="headshot-container">
+      <div class="container" className="headshot-container">
         <img src={headshot} alt="Headshot" className="headshot" />
         <div className="headshot-overlay"></div>
       </div>
