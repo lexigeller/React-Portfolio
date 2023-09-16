@@ -17,8 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Navigation activeSection={activeSection} onNavItemClick={handleNavItemClick} />
+      <Header activeSection={activeSection} onNavItemClick={handleNavItemClick} />
       <main>
         {activeSection === 'About Me' && <AboutMe />}
         {activeSection === 'Portfolio' && <Portfolio />}
