@@ -172,7 +172,8 @@ button {
 }
 
 p {
-  color: #023020
+  color: #023020;
+  list-style: none;
 }
 
 /* Media queries for responsiveness */
