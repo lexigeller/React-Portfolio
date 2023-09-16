@@ -24,7 +24,7 @@ body {
 }
 
 /* Header styles */
-header {
+header, .header {
   background-image: url("../src/assets/header.jpg");
   background-size: cover;
   width: 100%;
@@ -78,10 +78,11 @@ h3 {
 /* About Me section styles */
 .about-me {
   text-align: center;
+  color: #023020;
 }
 
 .headshot {
-  max-width: 15%; /* Adjust the maximum width as needed */
+  max-width: 30%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
@@ -89,8 +90,8 @@ h3 {
 
 /* Position the background image behind the headshot */
 .headshot-container {
-  max-width: fit-content;
-  height: auto;
+  max-width: 50%;
+  height: 50%;
   background-image: url("../src/assets/headshotbackground.jpg");
   background-size: cover;
   background-position: center;
@@ -115,7 +116,7 @@ h3 {
 .contact {
   padding: 14px 32px 14px 16px;
   border-radius: 4px;
-  border: 2px solid #5d0cff;
+  border: 2px solid #023020;
   outline: none;
   width: 320px;
   background: transparent;
@@ -132,7 +133,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   outline: none;
-  background: #5d0cff;
+  background: #023020;
   color: #fff;
   text-transform: capitalize;
 }
@@ -159,9 +160,10 @@ button {
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   font-size: 24px;
   cursor: pointer;
+  color: #023020;
 }
 
 /* Media queries for responsiveness */
