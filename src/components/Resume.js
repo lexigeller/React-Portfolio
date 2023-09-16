@@ -2,8 +2,8 @@ import React from 'react';
 
 function Resume() {
   return (
-    <section id="resume">
-        <div className="resume-download">
+    <section>
+        <div  id="resume" className="resume-download">
           <p>Download my full resume:</p>
           <a
             href="pdf"
