@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.2b619e01.css",
-    "main.js": "/React-Portfolio/static/js/main.6ff1c56c.js",
+    "main.css": "/React-Portfolio/static/css/main.fbfeed9a.css",
+    "main.js": "/React-Portfolio/static/js/main.0d1ecdea.js",
     "static/media/headshot.jpg": "/React-Portfolio/static/media/headshot.ace14e2f1db49041bd4d.jpg",
     "static/media/headshotbackground.jpg": "/React-Portfolio/static/media/headshotbackground.4b87aa48824647e08d9e.jpg",
     "static/media/header.jpg": "/React-Portfolio/static/media/header.b6c7a7424a6931e8b656.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.2b619e01.css.map": "/React-Portfolio/static/css/main.2b619e01.css.map",
-    "main.6ff1c56c.js.map": "/React-Portfolio/static/js/main.6ff1c56c.js.map"
+    "main.fbfeed9a.css.map": "/React-Portfolio/static/css/main.fbfeed9a.css.map",
+    "main.0d1ecdea.js.map": "/React-Portfolio/static/js/main.0d1ecdea.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b619e01.css",
-    "static/js/main.6ff1c56c.js"
+    "static/css/main.fbfeed9a.css",
+    "static/js/main.0d1ecdea.js"
   ]
 }
