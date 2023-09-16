@@ -13,7 +13,7 @@ function AboutMe() {
       </div>
       <div className="about-me-content">
         <h1 id="about">About Me</h1>
-        <div className="container">
+        <div className="container row">
           <p>
             Hello! I'm Lexi Geller, a recent web development graduate.
           </p>
