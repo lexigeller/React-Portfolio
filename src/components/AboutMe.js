@@ -1,19 +1,17 @@
 import React from 'react';
 import '../App.css';
 import headshot from '../assets/headshot.jpg';
-import headshotBackground from '../assets/headshotbackground.jpg';
 
 function AboutMe() {
   return (
     <section id="about-me" className="about-me">
       <div className="headshot-container">
-        <img src={headshotBackground} alt="Headshot Background" className="headshot-background" />
         <img src={headshot} alt="Headshot" className="headshot" />
         <div className="headshot-overlay"></div>
       </div>
       <div className="about-me-content">
         <h1 id="about">About Me</h1>
-        <div className="container row">
+        <div className="about-me-container">
           <p>
             Hello! I'm Lexi Geller, a recent web development graduate.
           </p>

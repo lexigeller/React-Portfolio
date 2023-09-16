@@ -89,7 +89,7 @@ h3 {
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  /*background-image: url("../src/assets/headshotbackground.jpg");*/
+  background-image: url("../src/assets/headshotbackground.jpg");
   background-size: cover;
   background-position: center;
   height: 500px; /* Adjust the height as needed */
@@ -154,6 +154,15 @@ button {
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
+  color: #fff;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+  background-color: #fff; /* Set a background color for the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for the card */
+}
+
+.about-me-container {
   color: #fff;
   padding: 16px;
   border-radius: 5px;
