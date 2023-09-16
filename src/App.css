@@ -16,6 +16,7 @@ body {
 
 section {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* App container styles */
@@ -85,7 +86,6 @@ h3 {
 .about-me {
   text-align: center;
   color: #023020;
-  /*margin-top: 50px; /* Add margin-top to create space */
 }
 
 /* Center the headshot and its background */
