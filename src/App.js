@@ -18,10 +18,10 @@ function App() {
     <div className="App">
       <Header onNavItemClick={handleNavItemClick} activeSection={activeSection} />
       <main>
-        {activeSection === 'About Me' && <AboutMe />}
-        {activeSection === 'Portfolio' && <Portfolio />}
-        {activeSection === 'Contact' && <Contact />}
-        {activeSection === 'Resume' && <Resume />}
+        {window.location.pathname === '/about' && <AboutMe />}
+        {window.location.pathname === '/portfolio' && <Portfolio />}
+        {window.location.pathname === '/contact' && <Contact />}
+        {window.location.pathname === '/resume' && <Resume />}
       </main>
       <Footer />
     </div>
