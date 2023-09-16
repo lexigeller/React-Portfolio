@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 function Navigation({ activeSection, onNavItemClick }) {
   return (
