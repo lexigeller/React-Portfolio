@@ -81,26 +81,24 @@ h3 {
 .about-me {
   text-align: center;
   color: #023020;
+  margin-top: 50px; /* Add margin-top to create space */
+}
+
+.headshot-container {
+  display: flex;
+  justify-content: center; /* Center the headshot horizontally */
+  align-items: center; /* Center the headshot vertically */
+  max-width: 80%;
+  margin: 0 auto; /* Center the container horizontally */
 }
 
 .headshot {
-  max-width: 30%; /* Adjust the maximum width as needed */
+  max-width: 100%; /* Adjust the maximum width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
 }
 
-/* Position the background image behind the headshot */
-.headshot-container {
-  max-width: 50%;
-  height: 50%;
-  background-image: url("../src/assets/headshotbackground.jpg");
-  background-size: cover;
-  background-position: center;
-  position: center;
-}
-
-/* Add padding and adjust the z-index to ensure the headshot is on top */
 .headshot-overlay {
   position: absolute;
   top: 0;
